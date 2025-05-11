@@ -43,7 +43,11 @@ const Login = () => {
               </div>
             </form>
 
-            <div className="flex items-center mt-10 mb-5">
+            <div className="mt-5 text-right text-sm text-gray-500">
+              <Link to={"#"} className="hover:text-gray-800"> Forget password? </Link>
+            </div>
+
+            <div className="flex items-center mt-7 mb-5">
               <div className="flex-grow h-px bg-gray-300"></div>
               <span className="text-gray-500 text-sm ml-3 mr-3">OR</span>
               <div className="flex-grow h-px bg-gray-300"></div>
